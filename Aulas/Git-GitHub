@@ -1,0 +1,41 @@
+Git
+Sistema de controle de versão de arquivos.
+
+Instalação
+
+Acesse o site [https://git-scm.com/downloads] escolha a versão de acordo com o sistema operacional e siga os passos para baixar e instalar.
+
+Configurando e iniciando 
+
+Após instalar, é necessário configurar o nome e e-mail de usuário no git para controle das alterações realizadas.
+
+Crie uma pasta para dá início ao projeto.
+
+Abra a pasta no terminal para utilizar os comandos.
+
+GitHub
+
+GitHub é um repositório online que utiliza o controle de versões de arquivos. Por meio dele é possível, hospedar, compartilhar, clonar projetos, facilitando em muitos casos o trabalhar em equipe num mesmo projeto.
+
+Comandos básicos
+
+git config --global user.name "nomeUsuario" : Insere o usuário 
+git config --global user.email "e-mailDoUsuario"  : Insere o e-mail do usuário 
+
+~ $ git init: Inicia o git na pasta/repositório atual
+
+~ $ git add . OU ~ $ git -- all: Adiciona todos os arquivos do projeto
+
+~ $ git add novoArquivo.html: Adiciona o arquivo correspondente ao nome, como exemplificado:
+    arquivo-> novoArquivo.html
+
+~ $ git status: Confere o estado do repositório, mostrando se tem arquivos a serem adicionados, por exemplo.
+
+~ $ git commit -m: Confirma as alterações e adiciona mensagem (m) relacionada ao que foi modificado no projeto.
+
+~ $ git push origin git@github.com:repositorioOnline: 
+
+    push → Envia as alterações para o repositório online, no caso o GitHub
+
+    origin: Local online do repositório que foi criado
+
